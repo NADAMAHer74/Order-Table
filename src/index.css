@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-theme {
+  @apply bg-gray-100 text-black;
+}
+
+.dark-theme {
+  @apply bg-gray-900 text-white;
+}
+
+.custom-cell {
+  @apply transition-all duration-300 transform origin-center;
+}
+
+.custom-cell:hover {
+  @apply scale-105;
+}
