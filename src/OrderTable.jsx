@@ -109,8 +109,8 @@ export default function OrderTable() {
           <SortByDateButton sortOrder={sortOrder} sortByDate={sortByDate} />
         </div>
         {/* Table Section */}
-        <div className="overflow-x-scroll md:overflow-x-hidden ">
-          <table className="table-auto  overflow-x-scroll  border-separate border-spacing-0 border border-gray-300 w-full">
+        <div className="overflow-x-auto">
+          <table className="table-auto  overflow-x-scroll md:overflow-x-hidden  border-separate border-spacing-0 border border-gray-300 w-full">
             <thead>
               <tr>
                 {ordersHeader.map((header, index) => (
